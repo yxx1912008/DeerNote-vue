@@ -9,11 +9,11 @@ Vue.use(Router)
 export default new Router({
 	routes: [{
 		path: '/',
-		name: 'Splash',
+		name: '启动页',
 		component: Splash
 	}, {
 		path: '/index',
-		name: 'Index',
+		name: '主页',
 		component: Index
 	}, {
 		path: '/MyInfo',
